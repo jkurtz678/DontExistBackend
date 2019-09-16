@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/jkurtz678/PropulsionBackend/issues"
   },
-  "homepage": "https://github.com/jkurtz678/PropulsionBackend#readme"
+  "homepage": "https://github.com/jkurtz678/PropulsionBackend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "public-ip": "^3.2.0"
+  }
 }
