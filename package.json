@@ -19,6 +19,7 @@
   "homepage": "https://github.com/jkurtz678/PropulsionBackend#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "morgan": "^1.9.1",
     "public-ip": "^3.2.0"
   }
 }
