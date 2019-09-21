@@ -10,6 +10,8 @@ const morgan = require('morgan');
 const slideRoutes = require('./api/routes/slides');
 
 app.use(morgan('dev'));
+app.use(express.static('data/audio'));
+app.use(express.static('data/img'));
 
 app.use((req, res, next) => {
    res.header('Access-Control-Allow-Origin', '*');
